@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.use(morgan("dev"));
 
 app.get("/", (req, res) => {
-    console.log("App is running...");
+    console.log("App is up and running...");
     res.json({ status: "Done with the pipeline setup" });
 });
 
